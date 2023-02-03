@@ -44,7 +44,8 @@ export default function Home() {
       <main className={styles.main}>
         <h3>Hi, im your AI therapy assistant</h3>
         <form onSubmit={onSubmit}>
-          <input
+          <textarea
+            rows="5"
             type="text"
             name="input"
             placeholder="Tell me what's on your mind"
